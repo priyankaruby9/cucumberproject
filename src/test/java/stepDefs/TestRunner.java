@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @CucumberOptions(
 		
-		plugin= {"html:target/html-cucumber","json:target/cucumber.jason"},//use this to get report
+		plugin= {"html:target/html-cucumber","json:target/cucumber.json"},//use this to get report
 		features="src/test/java/features",
 		//tags= {"@F_1234"}, //to run feature file
 		tags = {"@Sanity"},  //to run one single Tag
